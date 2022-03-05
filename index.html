@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="./css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>Tabelline</title>
+</head>
+<body>
+
+
+	<div class="container d-print-none">
+	    <h1>Tabelline!</h1>
+
+		<div class="row">
+			<div class="col">
+
+				<div class="input-group flex-nowrap">
+				  <span class="input-group-text" id="addon-wrapping">Inizia da</span>
+				  <input id="inizia_da" value="1" type="number" class="form-control" placeholder="es. 1" aria-label="Inizia da" aria-describedby="addon-wrapping">
+				</div>
+
+				<div class="input-group flex-nowrap mt-1">
+				  <span class="input-group-text" id="addon-wrapping">Finisci a</span>
+				  <input id="finisci_a" value="6" type="number" class="form-control" placeholder="es. 6" aria-label="Finisci a" aria-describedby="addon-wrapping">
+				</div>
+			</div>
+
+			<div class="col">
+				<button type="button" class="btn btn-primary" id="produci">Produci tabelline</button>
+				<button type="button" class="btn btn-secondary" id="stampa">Stampa</button>
+			</div>
+
+		</div>		
+	</div>
+
+	<div class="container d-print-block">
+
+		<div class="d-flex flex-wrap d-print-block" id="tabelline">
+
+
+		</div>
+	</div>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+	<script src="./js/app.js"></script>    
+  </body>
+</html>
