@@ -4,7 +4,7 @@ function renderTabelline(inizia_da, finisci_a) {
 	for (let x = inizia_da; x<= finisci_a; x++) {
 		for (let y = 0; y<=10; y++) {
 			tabelline.push(
-				{ val1: x, val2: y}
+				{ val1: x, val2: y, res: x*y}
 			);
 		}
 	}
@@ -17,7 +17,7 @@ function renderTabelline(inizia_da, finisci_a) {
 		$('#tabelline').append(`			
 			<div class="card tabellina d-print-inline-block">
 				<div class="card-body">
-					${e.val1} x ${e.val2} = .......
+					${e.res} : ${e.val1} = ....
 				</div>
 			</div>
 		`);
