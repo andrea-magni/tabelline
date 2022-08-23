@@ -39,6 +39,17 @@ $(document).ready(function(){
 		}
 	);
 
+	$('#go_tabelline').click(
+		function(){
+			window.location = './tabelline.html';
+		}
+	);
+
+	$('#go_divisioni').click(
+		function(){
+			window.location = './tabelline.html';
+		}
+	);
 	
 
 });
