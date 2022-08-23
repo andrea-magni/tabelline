@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 	$('#go_divisioni').click(
 		function(){
-			window.location = './tabelline.html';
+			window.location = './divisioni.html';
 		}
 	);
 	
